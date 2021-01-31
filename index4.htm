@@ -11,25 +11,24 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <main>
-        <div class="container-fluid mx-auto">
-        <header>
-            <nav class="row bg-danger mx-auto position-fixed top-0 py-md-0 d-flex flex-column flex-md-row flex-lg-row justify-content-between">
-                <div class="col-12 text-center text-md-start col-md-4 col-lg-7 text-white">
-                    <h2><a class="text-decoration-none link-light" href="index.html">Easy Gate</a></h2>
-                </div>
-                <div class="col-12 col-md-8 col-lg-5 px-0 ">
-                    <ul class="d-flex justify-content-center justify-content-md-end py-md-1 ">
-                        <li class="text-nowrap"><a class=" text-white text-decoration-none link-dark px-3  px-md-3" href="index.html#search"> <i class="fas fa-search px-1 pt-2"></i></a> </li>
-                        <li><a class=" text-white text-decoration-none link-dark px-3 px-md-3" href="index.html#about-us">About</a></li>
-                        <li><a class="text-white text-decoration-none link-dark px-3  px--md-3" href="#">Offers</a></li>
-                        <li><a class="text-white text-decoration-none link-dark px-3  px-md-3" href="#">More</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+      <div class="container-fluid mx-auto">
+            <header>
+                <nav class="row bg-danger mx-auto position-fixed top-0 py-md-0 d-flex flex-column flex-md-row flex-lg-row justify-content-between">
+                    <div class="col-12 text-center text-md-start col-md-4 col-lg-7 text-white">
+                        <h2><a class="text-decoration-none link-light" href="index.html">Easy Gate</a></h2>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-5 px-4 ">
+                        <ul class="d-flex justify-content-center justify-content-md-end py-md-1 ">
+                            <li class="text-nowrap"><a class=" text-white text-decoration-none link-dark px-3  px-md-3" href="index.html#search"> <i class="fas fa-search px-1 pt-2"></i></a> </li>
+                            <li><a class=" text-white text-decoration-none link-dark px-3 px-md-3" href="index.html#about-us">About</a></li>
+                            <li><a class="text-white text-decoration-none link-dark px-3  px--md-3" href="#">Offers</a></li>
+                            <li><a class="text-white text-decoration-none link-dark px-3  px-md-3" href="#">More</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        <main>
 
-        <div class="conainer-fluid">
             <form class="mx-5 my-md-5 signup-page">
                 <h1 class="my-5">Sign Up and Apply</h1>
                 <div class="mb-3">
@@ -38,31 +37,31 @@
                 </div>
                   <div class="mb-3">
                     <label for="text2" class="form-label">LAST NAME</label>
-                    <input type="email" class="form-control" id="text2">
+                    <input type="text" class="form-control" id="text2">
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email">
+                    <input type="email" class="form-control" id="email" required>
                   </div>
                   <div class="mb-3">
                     <label for="username" class="form-label">USERNAME</label>
-                    <input type="email" class="form-control" id="username" required>
+                    <input type="text" class="form-control" id="username" required>
                   </div>
                   <div class="mb-3">
                     <label for="password" class="form-label">PASSWORD</label>
-                    <input type="email" class="form-control" id="password">
+                    <input type="password" class="form-control" id="password" required>
                   </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Confirm PASSWORD</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" required>
                 </div>
               
                 <button type="submit" class="btn btn-danger">Sign Up</button>
                 <button type="submit" class="btn btn-light">Sign In</button>
               </form>
-        </div>
+        
 
-        </div>
+    
 
         <footer>
             <div class="footer bg-dark">
@@ -96,8 +95,10 @@
                 </div>
             </div>
         </footer>
-    </main>
-       
+
+      </main>
+         
+     </div>  
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/afced7e812.js" crossorigin="anonymous"></script>

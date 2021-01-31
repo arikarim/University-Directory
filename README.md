@@ -1,7 +1,7 @@
 # Univercity Directory website
 
 > This is a University directory website that helps users navigate through Universities easily and find their dream University,
-currently, there are three main pages, "The Search page, The result page, and the details page" with a fixed navigation help users navigate through the website.
+currently, there are four main pages, "The Search page, The result page, the sign up page and the details page" with a fixed navigation help users navigate through the website.
 
 ![screenshot](assets/screen.png)
 
