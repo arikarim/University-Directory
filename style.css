@@ -109,6 +109,10 @@ footer li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .footer a {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 1023.99px) {
@@ -144,5 +148,9 @@ footer li {
 
   .footer a {
     font-size: 0.7rem;
+  }
+
+  .signup-page {
+    margin: 100px 0 20px 0;
   }
 }
