@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
     <title>Easy Gate</title>
   </head>
   <body>
@@ -13,12 +12,12 @@
         <header class="">
             <nav class="row mx-auto position-fixed top-0 py-md-0 d-flex flex-column flex-md-row flex-lg-row justify-content-between">
                 <div class="col-12 text-center text-md-start col-md-4 col-lg-7 text-white">
-                    <h2>Easy Gate</h2>
+                    <h1>Easy Gate</h1>
                 </div>
                 <div class="col-12 col-md-8 col-lg-5 px-0">
                     <ul class="d-flex justify-content-center justify-content-md-end py-md-1 ">
+                        <li class="text-nowrap"><a class=" text-white text-decoration-none link-dark px-1  px-md-3" href="#search"> <i class="fas fa-search px-1"></i></a> </li>
                         <li><a class=" text-white text-decoration-none link-dark px-1 px-md-3" href="#">About</a></li>
-                        <li class="text-nowrap"><a class=" text-white text-decoration-none link-dark px-1  px-md-3" href="#search">Universities <i class="fas fa-search px-1"></i></a> </li>
                         <li><a class="text-white text-decoration-none link-dark px-1  px--md-3" href="#">Offers</a></li>
                         <li><a class="text-white text-decoration-none link-dark px-1  px-md-3" href="#">More</a></li>
                     </ul>
@@ -32,16 +31,16 @@
                     <div id="search" class="heading text-white">
                         <h3>Easy Gate...Your easy way to universities in Kurdistan</h3>
                     </div>
-                    <div class=" bg-light w-50 h-25 d-flex flex-column align-items-center justify-content-center">
-                        <form  class="d-flex flex-column flex-md-row px-3 w-100 align-items-end">
+                    <div class="form-background w-50 h-25 d-flex flex-column align-items-center justify-content-center">
+                        <form  class="form2 d-flex flex-column flex-md-row px-3 w-100 align-items-end">
                             <div class="w-100  py-0">
                               <label for="text" class="form-label">Search by Keywords</label>
                               <input type="text" class="form-control py-0" id="text">
                             </div>
-                            <a class="colorr text-decoration-none link-light fw-bolder  w-100 text-center" href="#searchresults"> Search</a>
+                            <a class="colorr text-decoration-none link-light fw-bolder  w-100 text-center" href="index2.htm"> Search</a>
                           </form>
                     </div>
-                    <div class="how bg-light my-5 p-2">
+                    <div class="how form-background my-5 p-2">
                         <a class="text-decoration-none link-dark fw-bolder" href="#how">How Easy Gate works</a>
                     </div>
                 </div>
@@ -49,184 +48,83 @@
             </div>
             <div class="row my-5">
                 <h4 id="how" class="header text-center fw-bolder my-4 text-danger">How Easy Gate Works  in four simple steps</h4>
-                <div class="col-12 d-flex flex-wrap">
-                    <div class=" bg-light col-md-12 col-lg-6 d-flex my-4 flex-column align-items-center">
+                <div class="how-grid">
+                    <div class=" bg-light  d-flex my-4 flex-column align-items-center">
                             <h4>1-SEARCH</h4>
                             <p class="w-75">easy gate is a collection of all univercities you can find it in kurdistan,simply in the home page just type the name of univercity you look for or click on the menu search icon </p>
                     </div>
-                    <div class="bg-light col-md-12 col-12  col-lg-6 d-flex my-4 flex-column align-items-center">
+                    <div class="bg-light d-flex my-4 flex-column align-items-center">
                             <h4>2-LOCATION</h4>
                             <p class="w-75">Indicate the location of the Univercity simply by clicking on the location icon </p>
 
                     </div>
-                    <div class="bg-light col-md-12 col-lg-6 d-flex my-4 flex-column align-items-center">
+                    <div class="bg-light  d-flex my-4 flex-column align-items-center">
                             <h4>3-APPLY</h4>
                             <p class="w-75">Apply for your dream department at your dream univercity,We will make sure you will get replay on time</p>
                     </div>
-                    <div class="bg-light col-md-12 col-lg-6 d-flex my-4 flex-column align-items-center">
+                    <div class="bg-light  d-flex my-4 flex-column align-items-center">
                             <h4>4-HAPPY STUDING</h4>
                             <p class="w-75">Once ypu applied prepare your documents and prepare yourself to study at your dream univercity</p>
 
                     </div>
                 </div>
             </div>
-            <div id="searchresults" class="row border-top">
-                <div class="search-results">
-                    <h2 class="text-center my-5">Search Results</h2>
+
+            <div id="about-us" class="about my-5">
+                <h3 class="mx-2">ABOUT US</h3>
+                <div class="col-12 d-flex flex-column color1">
+                    <h5 class="text-white p-3">Over 50 Universities Registered with us</h5>
+                    <p class="text-white p-3">Find your University by using our easy search</p>
+                    <a class="p-2 text-center text-decoration-none mx-3 my-3  link-dark search-botton rounded fw-bolder bg-light" href="#search">Search</a>
                 </div>
-                <div class=" d-flex flex-wrap ">
-                    <div class="col-12 col-md-6 col-lg-3 p-2">
-                        <div class="card">
-                            <img src="/assets/b.jpg" class="card-img-top img-fluid1" alt="...">
-                            <div class="card-body bg-light">
-                              <h6 class="card-title">Slaymaniyah University</h6>
-                              <a href="#sulaimany" class="btn btn-primary">See Details</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-2">
-                        <div class="card">
-                            <img src="/assets/c.jpg" class="card-img-top img-fluid1" alt="...">
-                            <div class="card-body">
-                              <h6 class="card-title">Salahaddin University</h6>
-                              <a href="#hawler" class="btn btn-primary">See Details</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-2">
-                        <div class="card">
-                            <img src="/assets/d.jpg" class="card-img-top img-fluid1" alt="...">
-                            <div class="card-body">
-                              <h6 class="card-title">Duhok University</h6>
-                              <a href="#duhok" class="btn btn-primary">See Details</a>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 p-2">
-                        <div class="card">
-                            <img src="/assets/e.jpg" class="card-img-top img-fluid1" alt="...">
-                            <div class="card-body">
-                              <h6 class="card-title">Raparin University</h6>
-                              <a href="#raparin" class="btn btn-primary">See Details</a>
-                            </div>
-                          </div>
-                    </div>
+                <div class="col-12 d-flex flex-column color2">
+                    <h5 class="text-white p-3">No need to go outside of your home</h5>
+                    <p class="text-white p-3">just press the button below and you are all set</p>
+                    <a class="p-2 text-center text-decoration-none mx-3 my-3  link-dark search-botton rounded fw-bolder bg-light" href="#search">Find</a>
                 </div>
+                <div class="col-12 d-flex flex-column color3">
+                    <h5 class="text-white p-3">Any Time any Where Anyway</h5>
+                    <p class="text-white p-3">No Matter Where You Are, how or When, You are one click away from finding your dream</p>
+                    <a class="p-2 text-center text-decoration-none mx-3 my-3  link-dark search-botton rounded fw-bolder bg-light" href="#search">Find</a>
+                </div>
+               
+                
             </div>
+
+            <footer>
+                <div class="footer bg-dark">
+                    <ul class="d-flex py-5 justify-content-between">
+                        <li class="px-1"><a class="link-light text-decoration-none" href="index.html">Home</a></li>
+                        <li class="px-1"><a class="link-light text-decoration-none" href="index.html">Search</a></li>
+                        <li class="px-1"><a class="link-light text-decoration-none" href="#about-us">About Us</a></li>
+                        <li class="px-1"><a class="link-light text-decoration-none" href="#">Facebook</a></li>
+                        <li class="px-1"><a class="link-light text-decoration-none" href="#">Twitter</a></li>
+                        <li class="px-1"><a class="link-light text-decoration-none" href="#">Blog</a></li>
+                    </ul>
+                    <div class="footer2-grid">
+                        <div class="subscribe mx-5 my-2 m-md-0">
+                            <h4 class="text-white text-center">SUBSCRIBE</h4>
+                            <form  class="form2 d-flex flex-column flex-md-row px-3 w-100 align-items-end">
+                                <div class="w-100  py-0">
+                                  <label for="text" class="form-label"></label>
+                                  <input type="text" placeholder="Email" class="form-control bg-dark py-0">
+                                </div>
+                                <a class="bg-secondary text-decoration-none link-light fw-bolder  w-100 text-center" href="index2.htm"> Send</a>
+                              </form>
+                        </div>
+                        <div class="contact mx-5 my-2 m-md-0">
+                            <h4 class="text-white text-center">CONTACT</h4>
+                            <p class="text-center text-white mt-4 ">Contact us at <span class="span-color">easygate@gmail.com</span></p>
+                        </div>
+                        <div class="about mx-5 my-2 m-md-0">
+                            <h4 class="text-white text-center">ABOUT US</h4>
+                            <p class="text-center text-white">we are a best university directory company here in Kurdistan/Iraq, With more than 10 years of experience and more than 50 Universities registered with us. </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
             
-            <div class="row">
-                    <div class="details text-center my-5 border-top py-3">
-                        <h3>Universities Detail</h3>
-                    </div>
-                    <div class="row mx-auto">
-                        <div class="col-12 my-3 d-flex flex-wrap border-bottom mx-auto">
-                            <div id="sulaimany" class="col-12 col-lg-6 bg-light">
-                                <div class="name">
-                                    <h3>Sulaymaniyah University</h3>
-                                    <img class="univercity-photo" src="/assets/f.jpg" alt="sulaymaniyah Univercity">
-                                    <div class="summery">
-                                        <p>The University of Sulaimani is a public university located in the city of Sulaymaniyah in Kurdistan Region - Iraq. It is one of the important scientific and cultural centers in Kurdistan region. It was founded by Professor Dr.Mohammed Salih Beg in 1968, and re reopened in 1992.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div  class="col-12 col-lg-6 d-flex flex-column align-items-lg-center bg-light">
-                                <h4 class="mx-3">Faculties</h4>
-                                <ul class="mx-3">
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Agricultural Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Commerce</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Veterinary Medicine</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Engineering</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Administration</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Law and Politics</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Language & Humanities</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Medical Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Physical & Basic Education</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Science and Science Education</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Humanities Education (Saidsadiq)</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="hawler"  class="col-12 my-3 d-flex flex-wrap border-bottom">
-                            <div class="col-12 col-lg-6 bg-light">
-                                <div class="name">
-                                    <h3>Salahaddin University</h3>
-                                    <img class="univercity-photo" src="/assets/g.png" alt="sulaymaniyah Univercity">
-                                    <div class="summery">
-                                        <p>Salahaddin University-Erbil is one of the public higher education institution in the North of Iraq and especially in Kurdistan region. It is located in Erbil, capital of the autonomous Kurdistan Region of Iraq. Sulaimani University-Sulaimani was established in 1968. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-center bg-light">
-                                <h4 class="mx-3">Faculties</h4>
-                                <ul class="mx-3">
-                                    <li><a class="text-decoration-none link-dark" href="#">Biology Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Chemistry Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Physics Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Mathematics Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Geology Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Computer Science and IT Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Environmental Health and Science Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Medical Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Engineering</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">School of Natural & Social Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Arts & Letters</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div id="duhok" class="col-12 my-3 d-flex flex-wrap border-bottom">
-                            <div class="col-12 col-lg-6 bg-light">
-                                <div class="name">
-                                    <h3>Duhok University</h3>
-                                    <img class="univercity-photo" src="/assets/h.jpg" alt="sulaymaniyah Univercity">
-                                    <div class="summery">
-                                        <p>The University of Duhok was founded on 31 October 1992, following a resolution by the Parliament of the Kurdistan Regional Government to address the increasing demand for higher education in the region. The first colleges to be established in the university were the College of Medicine and the College of Agriculture.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-center bg-light">
-                                <h4 class=" ">Faculties</h4>
-                                <ul class="mx-3 ">
-                                    <li><a class="text-decoration-none link-dark" href="#">Civil Engineering..</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Pharmacy & Pharmacology</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Architectural Engineering.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Computer Science and Information Systems</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Economics and Econometrics</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">English Language and Literature</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Human Resources Management.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Medical Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Engineering</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">School of Natural & Social Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Marketing</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div  id="raparin" class="col-12 my-3 d-flex flex-wrap border-bottom">
-                            <div class="col-12 col-lg-6 bg-light">
-                                <div class="name">
-                                    <h3>Raparin University</h3>
-                                    <img class="univercity-photo" src="/assets/e.jpg" alt="sulaymaniyah Univercity">
-                                    <div class="summery">
-                                        <p>The University of Raparin is a public university in Ranya, in the Sulaymaniyah Governorate of the Kurdistan Region of Iraq. It was established in 2010. The main campus of the Raparin University is located in Rania District, and the second campus is located in Qaladiza District.  </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 d-flex flex-column align-items-lg-center bg-light">
-                                <h4 class=" ">Faculties</h4>
-                                <ul class="mx-3 ">
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Human Science.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College Of Nursing</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Science</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Mathematics Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Department of Animal Resources</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Computer Science and IT Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Environmental Health and Science Department.</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">Faculty of Medical Sciences</a></li>
-                                    <li><a class="text-decoration-none link-dark" href="#">College of Engineering</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </div>
+        
         </main>
     </div>
 
