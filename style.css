@@ -154,3 +154,11 @@ footer li {
     margin: 100px 0 20px 0;
   }
 }
+
+.icon {
+  font-size: 30px;
+}
+.photo-right img {
+  width: 300px;
+  height: 300px;
+}
