@@ -21,6 +21,9 @@ Additional description about the project and its features.
 - GitHub: [@arikarim](https://github.com/arikarim)
 - LinkedIn: [AriKarim](https://www.linkedin.com/in/ari-karim-523bb81b3)
 
+## Credit to real Author
+Credit to the author Mathew NJuguna and others on behalf for design of this project.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
