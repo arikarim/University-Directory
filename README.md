@@ -26,7 +26,7 @@ Credit to the author Mathew NJuguna and others on behalf for design of this proj
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!
 
 ## 📝 License
 
