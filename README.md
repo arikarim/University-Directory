@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]( https://arikarim.github.io/Capstone-Projectt-1/)
+[Live Demo Link](https://arikarim.github.io/Capstone-Projectt-1/)
 
 ## Author
 
