@@ -1,5 +1,6 @@
 node_modules/
-./index.html
-index.html/
-/index.html
-index.html
+./LICENSE
+/LICENSE
+LICENSE/
+\LICENSE
+\LICENSE
